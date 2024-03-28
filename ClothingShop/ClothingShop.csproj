@@ -168,12 +168,12 @@
     <Compile Include="Models\Facade Pattern\ProductFacade.cs" />
     <Compile Include="Models\Facade Pattern\ProductImage.cs" />
     <Compile Include="Models\Facade Pattern\ProductInfo.cs" />
-    <Compile Include="Models\Factory\Admin.cs" />
-    <Compile Include="Models\Factory\DangNhapAdmin.cs" />
-    <Compile Include="Models\Factory\DangNhapFactory.cs" />
-    <Compile Include="Models\Factory\DangNhapUser.cs" />
-    <Compile Include="Models\Factory\ILogin.cs" />
-    <Compile Include="Models\Factory\User.cs" />
+    <Compile Include="Models\Factory Method Pattern\Admin.cs" />
+    <Compile Include="Models\Factory Method Pattern\DangNhapAdmin.cs" />
+    <Compile Include="Models\Factory Method Pattern\DangNhapFactory.cs" />
+    <Compile Include="Models\Factory Method Pattern\DangNhapUser.cs" />
+    <Compile Include="Models\Factory Method Pattern\ILogin.cs" />
+    <Compile Include="Models\Factory Method Pattern\User.cs" />
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
