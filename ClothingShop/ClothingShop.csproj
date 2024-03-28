@@ -143,6 +143,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Adapter\AP_HyperTech.cs" />
+    <Compile Include="Models\Adapter\HyperTechDatabaseAdapter.cs" />
+    <Compile Include="Models\Adapter\IsanPhamDataProvider.cs" />
     <Compile Include="Models\admin.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -195,9 +198,6 @@
     <Compile Include="Models\Product.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Proxy Pattern\ConcreteSanPham.cs" />
-    <Compile Include="Models\Proxy Pattern\Proxy.cs" />
-    <Compile Include="Models\Proxy Pattern\SanPhamManagement.cs" />
     <Compile Include="Models\Singleton\DBDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
