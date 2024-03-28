@@ -199,6 +199,9 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Singleton\DBDatabase.cs" />
+    <Compile Include="Models\State Pattern\Order.cs" />
+    <Compile Include="Models\State Pattern\IOrderState.cs" />
+    <Compile Include="Models\State Pattern\PendingState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
