@@ -143,9 +143,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Adapter\AP_HyperTech.cs" />
-    <Compile Include="Models\Adapter\HyperTechDatabaseAdapter.cs" />
-    <Compile Include="Models\Adapter\IsanPhamDataProvider.cs" />
+    <Compile Include="Models\Adapter Pattern\AP_HyperTech.cs" />
+    <Compile Include="Models\Adapter Pattern\HyperTechDatabaseAdapter.cs" />
+    <Compile Include="Models\Adapter Pattern\IsanPhamDataProvider.cs" />
     <Compile Include="Models\admin.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -156,12 +156,12 @@
     <Compile Include="Models\Customer.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Decorator\AbstractDecorator.cs" />
-    <Compile Include="Models\Decorator\AbstractKhachHang.cs" />
-    <Compile Include="Models\Decorator\ConcreteKhachHang.cs" />
-    <Compile Include="Models\Decorator\EmailKHDecorator.cs" />
-    <Compile Include="Models\Decorator\HoTenKHDecorator.cs" />
-    <Compile Include="Models\Decorator\MatKhauKHDecorator.cs" />
+    <Compile Include="Models\Decorator Pattern\AbstractDecorator.cs" />
+    <Compile Include="Models\Decorator Pattern\AbstractKhachHang.cs" />
+    <Compile Include="Models\Decorator Pattern\ConcreteKhachHang.cs" />
+    <Compile Include="Models\Decorator Pattern\EmailKHDecorator.cs" />
+    <Compile Include="Models\Decorator Pattern\HoTenKHDecorator.cs" />
+    <Compile Include="Models\Decorator Pattern\MatKhauKHDecorator.cs" />
     <Compile Include="Models\DonHang.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
